@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasia | Code&Codex</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #541f1f, #e8d29f, #dbcfb1);
+      color: #fff;
+    }
+
+    header {
+      background-color: #edd598;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #460d0d;
+    }
+
+    .nav-links a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #5dade2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #3f0e0e;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .book {
+      background-color: #5e1b1b;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: translateY(-5px);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .book h3 {
+      color: #ffcaca;
+      margin-bottom: 5px;
+    }
+
+    .book p {
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
+    .actions {
+      margin-top: 10px;
+    }
+
+    .quote-box {
+      background-color: #581212;
+      padding: 20px;
+      border-left: 5px solid #e25d7a;
+      font-style: italic;
+      margin-top: 50px;
+      border-radius: 6px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Code&Codex</div>
+    <nav class="nav-links">
+      <a href="pag02.html">Explorar</a>
+      <a href="pag03.html">Catálogo</a>
+      <a href="pag01.html">Entrar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Fantasia</h1>
+
+    <div class="highlight">
+      <div class="book">
+        <img src="91M9xPIf10L._SL1500_.jpg" alt="Capa do livro" width="400px" height="400px">
+        <h3> The Hobbit </h3>
+        <p>Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta.</p>
+      </div>
+
+      <div class="book">
+        <img src="71t558uD09L._SL1500_.jpg" alt="Capa do livro" width="400px" height="400px">
+        <h3> Shatter Me </h3>
+        <p>Um toque é o bastante.</p>
+        
+      </div>
+
+      <div class="book">
+        <img src="71nmEXuiNnL._SL1500_.jpg" alt="Capa do livro" width="400px" height="400px">
+        <h3>Iron Widow </h3>
+        <p>Unindo ficção científica, fantasia e elementos da história chinesa, Viúva de Ferro é um dos lançamentos mais aguardados de 2022.</p>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      "Qualquer tecnologia suficientemente avançada é indistinguível da magia." — Arthur C. Clarke
+    </div>
+  </div>
+</body>
+</html>

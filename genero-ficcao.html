@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficção Científica | Code&Codex</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      background-color: #0d1b2a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #5dade2;
+    }
+
+    .nav-links a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #5dade2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #5dade2;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .book {
+      background-color: #12232e;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .book:hover {
+      transform: translateY(-5px);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .book h3 {
+      color: #aed6f1;
+      margin-bottom: 5px;
+    }
+
+    .book p {
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+
+    .actions {
+      margin-top: 10px;
+    }
+
+    .actions button {
+      background-color: #5dade2;
+      border: none;
+      color: white;
+      padding: 8px 15px;
+      margin-right: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .actions button:hover {
+      background-color: #3498db;
+    }
+
+    .quote-box {
+      background-color: #1c3b57;
+      padding: 20px;
+      border-left: 5px solid #5dade2;
+      font-style: italic;
+      margin-top: 50px;
+      border-radius: 6px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Code&Codex</div>
+    <nav class="nav-links">
+      <a href="pag02.html">Explorar</a>
+      <a href="pag03.html">Catálogo</a>
+      <a href="pag01.html">Entrar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Ficção Científica</h1>
+
+    <div class="highlight">
+      <div class="book">
+        <img src="download.jpg" alt="Capa do livro" width="400px" height="400px">
+        <h3>Dune</h3>
+        <p>Uma épica jornada interplanetária em um futuro onde política, religião e ecologia colidem.</p>
+      </div>
+
+      <div class="book">
+        <img src="D_NQ_NP_2X_727792-MLB48193689468_112021-F.webp" alt="Capa do livro" width="400px" height="400px">
+        <h3>Neuromancer</h3>
+        <p>O clássico do cyberpunk que inspirou gerações. Inteligência artificial e hackers em alta voltagem.</p>
+        
+      </div>
+
+      <div class="book">
+        <img src="OIP.jpg" alt="Capa do livro" width="400px" height="400px">
+        <h3>Foundation</h3>
+        <p>Asimov nos guia por uma saga científica e política sobre o declínio e renascimento de uma galáxia.</p>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      "Qualquer tecnologia suficientemente avançada é indistinguível da magia." — Arthur C. Clarke
+    </div>
+  </div>
+</body>
+</html>
